@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookyourshow</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">BookYourShow</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="#">Our Story</a>
+              <a class="dropdown-item" href="#">Mission</a>
+              <a class="dropdown-item" href="#">Team</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tickets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="#">Concerts</a>
+              <a class="dropdown-item" href="#">Movies</a>
+              <a class="dropdown-item" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item">
+			    <form class="search-form">
+              <input type="text" class="search-input" placeholder="Search">
+              <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+			    </form>
+          </li>
+          <li class="nav-item">
+            <form>
+              <button class="sign-in">Sign in</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <input checked type="radio" name="slider" id="slide1" />
+    <input type="radio" name="slider" id="slide2" />
+    <input type="radio" name="slider" id="slide3" />
+    <input type="radio" name="slider" id="slide4" />
+    <input type="radio" name="slider" id="slide5" />
+
+    <div class="slider-wrapper">
+      <div class="inner">
+        <article id="slide-1">
+          <div class="info top-left">
+            <h3 onclick="window.location.href='seat.html'">TRANSFORMERS RISE OF THE BEASTS</h3>
+          </div>
+          <img src="https://static.toiimg.com/photo/100465865.jpeg" />
+        </article>
+
+        <article>
+          <div class="info top-left">
+            <h3 onclick="window.location.href='seat.html'">Por Thozhil</h3>
+          </div>
+          <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00357691-gnvwxduphk-landscape.jpg" />
+        </article>
+
+        <article>
+          <div class="info top-left">
+            <h3 onclick="window.location.href='seat.html'">The Flash</h3>
+          </div>
+          <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/04/the-flash-ezra-miller-michael-keaton-sasha-calle.jpg" />
+        </article>
+
+        <article>
+          <div class="info top-left">
+            <h3 onclick="window.location.href='seat.html'">Veeran</h3>
+          </div>
+          <img src="https://static.toiimg.com/thumb/msid-100698625,width-1280,resizemode-4/100698625.jpg" />
+        </article>
+
+        <article>
+          <div class="info top-left">
+            <h3 onclick="window.location.href='seat.html'">Takkar</h3>
+          </div>
+          <img src="https://www.greatandhra.com/newphotos10/Takkar-Telugu-11686298805.jpg" />
+        </article>
+      </div>
+      <!-- .inner -->
+    </div>
+    <!-- .slider-wrapper -->
+
+    <div class="slider-prev-next-control">
+      <label for="slide1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+		<path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/>
+	  </svg></label>
+      <label for="slide2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+		<path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/>
+	  </svg></label>
+      <label for="slide3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+		<path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/>
+	  </svg></label>
+      <label for="slide4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+		<path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/>
+	  </svg></label>
+      <label for="slide5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+		<path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"/>
+	  </svg></label>
+    </div>
+    <!-- .slider-prev-next-control -->
+
+    <div class="slider-dot-control">
+      <label for="slide1" ></label>
+      <label for="slide2" ></label>
+      <label for="slide3" ></label>
+      <label for="slide4" ></label>
+      <label for="slide5" ></label>
+    </div>
+    <!-- .slider-dot-control -->
+  </div>
+
+  <div class="slidder-background">
+
+    <div class="slider-wrapper-bg">
+      <div class="inner-bg">
+        <article class="article-bg">
+          <img src="https://static.toiimg.com/photo/100465865.jpeg" />
+        </article>
+
+        <article class="article-bg">
+          <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00357691-gnvwxduphk-landscape.jpg" />
+        </article>
+
+        <article class="article-bg">
+          <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/04/the-flash-ezra-miller-michael-keaton-sasha-calle.jpg" />
+        </article>
+
+        <article class="article-bg">
+          <img src="https://static.toiimg.com/thumb/msid-100698625,width-1280,resizemode-4/100698625.jpg" />
+        </article>
+
+        <article class="article-bg">
+          <img src="https://www.greatandhra.com/newphotos10/Takkar-Telugu-11686298805.jpg" />
+        </article>
+      </div>
+      <!-- .inner -->
+    </div></div>
+
+    <!--New rleases-->
+    <div class="container new-release">
+      <div class="row">
+        <div class="col">
+          <center><img src="images/vimaanam.png" id="new-release-img"></center>
+        </div>
+        <div class="col new-release-right">
+          <div class="center-vertically">
+            <h1 class="new-release-text">Have a look <br>at new releases..! </h1>
+            <a href="new-release.html"><button class="trending glow-on-hover">Trending</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Comming up-->
+
+    <section class="game-section">
+      <h2 class="line-title">Upcoming movies</h2>
+      <div class="owl-carousel custom-carousel owl-theme">
+        <div class="item active" style="background-image: url(https://www.wallsnapy.com/img_gallery/leo-vijay-first-look-image-wallpaper-1200-4894031.jpg);">
+          <div class="item-desc">
+            <h3>Leo</h3>
+            <p>Leo is an upcoming Indian Tamil-language action film directed by Lokesh Kanagaraj, who co-wrote the script with Rathna Kumar and Deeraj Vaidy.</p>
+            <p class="upcoming-date">Save the date : 19 October 2023</p>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://images.hindustantimes.com/img/2022/08/22/550x309/Rajinikanth_1661155944956_1661155979932_1661155979932.jpeg);">
+          <div class="item-desc">
+            <h3>Jailer</h3>
+            <p>Jailer is an upcoming Indian Tamil-language action comedy film written and directed 
+              by Nelson and produced by Kalanithi Maran of Sun Pictures.</p>
+              <p class="upcoming-date">Save the date : 10 August 2023</p>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://pbs.twimg.com/profile_images/1349597122509717504/WObwwzoz_400x400.jpg);">
+          <div class="item-desc">
+            <h3>Ayalaan</h3>
+            <p>Ayalaan is an upcoming Indian Tamil-language science fiction comedy film written and directed by 
+              R. Ravikumar, and produced by Kotapadi J</p>
+              <p class="upcoming-date">Save the date : November 2023</p>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://pbs.twimg.com/media/Fx1EPCAaIAYxMGK.jpg:large);">
+          <div class="item-desc">
+            <h3>Kanguva</h3>
+            <p>Kanguva: A Mighty Valiant Saga, is an upcoming Indian Tamil-language period action 
+              drama film directed by Siva and written by Adi Narayana.</p>
+            <p class="upcoming-date">Expected at early 2024</p>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://static.toiimg.com/thumb/msid-95511637,width-1280,resizemode-4/95511637.jpg);">
+          <div class="item-desc">
+            <h3>Japan</h3>
+            <p>Japan is an upcoming Tamil movie. The movie is directed by Raju Murugan and will feature Karthi, 
+              Anu Emmanuel, Sunil and Vijay Milton as lead characters.</p>
+            <p class="upcoming-date">Save the date : 30 September 2023</p>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://www.thenewsminute.com/sites/default/files/Jigarthanda2x_121222_1200_1.jpg);">
+          <div class="item-desc">
+            <h3>Jigarthanda double x</h3>
+            <p>Jigarthanda Double X Movie.
+              The sequel to 2014 action-thriller Jigarthanda. The film is believed to be inspired by the 2006 South Korean film A Dirty Carnival.</p>
+            <p class="upcoming-date">Save the date : 12 November 2023</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- near by theatres -->
+    <div class="container text-center container-nearby">
+      <div class="row align-items-center">
+        <div class="col" style="margin: 0px 20px;">
+          <p style="text-align: right;"><i class='fas fa-map-marker-alt' style="font-size: 50px; color: #ff3c00;"></i></p>
+          <h1 class="near-by-text">Discover cinemas in <br>your area</h1>
+          <button class="near-by-button">Locate</button>
+        </div>
+        <div class="col">
+          <img id="theatre-nearby" src="https://i.gadgets360cdn.com/large/IMAX_at_VR_Bengaluru_1524204197058.jpg">
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div>
+
+      <footer class="bg-dark text-center text-white" style="background-color: #333;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+       
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+  
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </section>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Bookyourshow.com</a>
+      </div>
+    </footer>
+      
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
+  <script>
+		const radioButtons = document.getElementsByName('slider');
+		const inner_slider = document.querySelector(".inner-bg")
+
+	// Add event listeners to radio buttons
+	radioButtons.forEach((radioButton) => {
+	radioButton.addEventListener('change', handleRadioChange);
+	});
+
+	// Event handler for radio button change
+	function handleRadioChange(event) {
+	const selectedId = event.target.id;
+
+	// Perform actions based on selected ID
+	if (selectedId === 'slide1') {
+		inner_slider.style.marginLeft = "0%"
+	} else if (selectedId === 'slide2') {
+		inner_slider.style.marginLeft = "-100%"             
+	} else if (selectedId === 'slide3') {
+		inner_slider.style.marginLeft = "-200%"
+	}
+	else if (selectedId === 'slide4') {
+		inner_slider.style.marginLeft = "-300%"
+	}
+	else if (selectedId === 'slide5') {
+		inner_slider.style.marginLeft = "-400%"
+	}
+	}
+
+  </script>
+</body>
+</html>
